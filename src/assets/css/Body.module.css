@@ -1,0 +1,39 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 80dvw;
+    margin-inline: auto;
+    padding-top: 10px;
+}
+.formToggle{
+    display: flex;
+    height:60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.albumHeading{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.falseButton{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}
+.trueButton{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}

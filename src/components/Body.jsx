@@ -1,19 +1,20 @@
 import styles from "../assets/css/Body.module.css";
 import { Form } from "./Form";
+import { Album } from "./Album";
 export function Body(){
     return(
         <div className={styles.body}>
             <Form/>
-            <div>
-                <div>
+            <div className={styles.formToggle}>
+                <div className={styles.albumHeading}>
                     Your albums
                 </div>
-                <div>
-                    <button>Add albums</button>
+                <div >
+                    <button className={styles.falseButton}>Add albums</button>
                 </div>
             </div>
             <div>
-                //render all the documents here 
+                <Album/>
             </div>
         </div>
     )

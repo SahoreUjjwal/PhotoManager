@@ -1,0 +1,25 @@
+.gridItem{
+    display:flex;
+    padding-top: 50px;;
+    border:5px solid #eee;
+    border-radius: 0.5rem 0.5rem 0 0;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items:center;
+}
+
+.gridItem img{
+    margin-bottom: 30px;
+    height: 50px;
+    aspect-ratio: 1/1;
+}
+.gridItem span{
+    background-color: #eee;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-block: 5px;
+    font-weight: 700;
+    text-align: center;
+    width:100%;
+    background-color: #eee;
+}

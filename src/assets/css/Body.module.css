@@ -29,11 +29,32 @@
 }
 .trueButton{
     background-color: rgba(0,119,255,.1);
-    border: 2px solid #07f;
+    border: 2px solid rgb(243, 29, 29);
     border-radius: 5px;
-    color: #07f;
+    color: rgb(243, 29, 29);
     cursor: pointer;
     font-weight: 700;
     outline: none;
     padding: 5px 10px;
+}
+
+.albumContainer{
+    display: grid;
+    gap:1rem;
+}
+
+
+
+
+@media (min-width: 40em)
+{
+    .albumContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (min-width: 60em)
+{
+    .albumContainer{
+        grid-template-columns: repeat(5,1fr);
+    }
 }

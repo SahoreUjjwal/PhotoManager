@@ -1,16 +1,21 @@
-#container{
+.container{
+    display: inline-block;
+    width:100dvw;
     min-height:50px;
     background-color: rgb(109, 205, 207);
-    padding-left:10%;
-    padding-block:auto;
+    padding-left:5%;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
-#container span{
+.container span{
     font-size: large;
     font-family: sans-serif;
     font-weight: 600;
+    vertical-align: middle;
 }
-#container img{
-    max-width: 40px;
+.container img{
+    max-width: 50px;
     aspect-ratio: 1/1;
-    border-radius: 1rem;
+    border-radius: 1rem;   
+    vertical-align: middle; 
 }

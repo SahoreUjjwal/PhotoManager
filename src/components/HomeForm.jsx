@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import styles from "../assets/css/Form.module.css";
 
-export function Form(props){
+export function HomeForm(props){
     const inputValue = useRef();
     const [value,setValue] = useState("");
     const {addAlbum} = props;

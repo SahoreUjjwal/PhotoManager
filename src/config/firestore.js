@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyAu0kReV3LE8FzSykTnNZ7t_7NdMg9MCeQ",
-  authDomain: "photfolio-6fa53.firebaseapp.com",
-  projectId: "photfolio-6fa53",
-  storageBucket: "photfolio-6fa53.appspot.com",
-  messagingSenderId: "82990788780",
-  appId: "1:82990788780:web:da0ec7c201f9f1fc22ef09"
+  apiKey: "AIzaSyDM4Xkwb2ekgXZbJaRB_O01JU0Ueb3OtxM",
+  authDomain: "photo-manager-773b9.firebaseapp.com",
+  projectId: "photo-manager-773b9",
+  storageBucket: "photo-manager-773b9.appspot.com",
+  messagingSenderId: "1064967193398",
+  appId: "1:1064967193398:web:56ffdccea486da30a72997"
 };
 
 const app = initializeApp(firebaseConfig);
